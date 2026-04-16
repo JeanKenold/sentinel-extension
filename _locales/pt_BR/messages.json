@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "Sentinel: Auditor de Privacidade" },
+  "appDesc": { "message": "Proteja seus dados sensíveis em tempo real." },
+  "upgradeBtn": { "message": "Atualizar para o PRO" },
+
+  "welcomeTitle": { "message": "O Sentinel está Ativo!" },
+  "welcomeSubtitle": {
+    "message": "Seu navegador agora está auditando dados sensíveis em tempo real."
+  },
+  "stepOneTitle": { "message": "Fixe na Barra" },
+  "stepOneDesc": {
+    "message": "Clique no ícone de quebra-cabeça e fixe o Sentinel para garantir proteção 24/7."
+  },
+  "stepTwoTitle": { "message": "Faça um Teste" },
+  "stepTwoDesc": {
+    "message": "Digite um CPF falso em qualquer site para ver o bloqueio em ação."
+  },
+  "finishBtn": { "message": "Conhecer o Sentinel PRO" }
+}

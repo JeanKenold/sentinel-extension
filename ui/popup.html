@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Sentinel <span>PRO</span></h1>
+      </header>
+      <div class="score-container">
+        <div class="score-circle" id="security-score">100</div>
+        <p>Security Score</p>
+      </div>
+      <div class="status-badge">Active Protection</div>
+      <div class="stats">
+        <span id="blocked-count">0</span>
+        <p>Threats Detected</p>
+        <button id="btn-clear">Clear History</button>
+      </div>
+      <div class="activity-log">
+        <h3>Recent Activity</h3>
+        <ul id="log-list"></ul>
+      </div>
+      <div class="actions">
+        <button id="btn-export" class="secondary-btn">
+          Export Audit Report (.json)
+        </button>
+      </div>
+      <div class="domain-info">
+        <p id="current-domain">Detecting...</p>
+        <button id="btn-whitelist">Trust this site</button>
+      </div>
+      <button id="btn-upgrade" class="primary-btn">Upgrade to PRO</button>
+    </div>
+    <script src="../scripts/popup.js"></script>
+  </body>
+</html>

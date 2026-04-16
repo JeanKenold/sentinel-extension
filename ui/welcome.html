@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Sentinel</title>
+    <link rel="stylesheet" href="welcome.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="icons/default/icon128.png" alt="Logo" class="logo" />
+
+      <h1 data-i18n="welcomeTitle">Installation Successful!</h1>
+      <p class="subtitle" data-i18n="welcomeSubtitle">
+        You are now protected against data leaks.
+      </p>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="icon-badge">1</div>
+          <h3 data-i18n="stepOneTitle">Pin to Toolbar</h3>
+          <p data-i18n="stepOneDesc">
+            Click the puzzle icon 🧩 and pin Sentinel to keep it active.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="icon-badge">2</div>
+          <h3 data-i18n="stepTwoTitle">Test Protection</h3>
+          <p data-i18n="stepTwoDesc">
+            Try typing a fake credit card on any site to see the alert.
+          </p>
+        </div>
+      </div>
+
+      <div class="cta-section">
+        <button id="finish-setup-btn" class="primary-btn" data-i18n="finishBtn">
+          See PRO Features
+        </button>
+      </div>
+    </div>
+    <script src="../scripts/welcome.js"></script>
+  </body>
+</html>

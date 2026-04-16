@@ -1,0 +1,17 @@
+{
+  "appName": { "message": "Sentinel: Privacy Auditor" },
+  "appDesc": { "message": "Protect your sensitive data in real-time." },
+  "upgradeBtn": { "message": "Upgrade to PRO" },
+
+  "welcomeTitle": { "message": "Sentinel is Active!" },
+  "welcomeSubtitle": {
+    "message": "Your browser is now auditing sensitive data in real-time."
+  },
+  "stepOneTitle": { "message": "Pin to Toolbar" },
+  "stepOneDesc": {
+    "message": "Click the puzzle icon and pin Sentinel to ensure 24/7 protection."
+  },
+  "stepTwoTitle": { "message": "Test Validation" },
+  "stepTwoDesc": { "message": "Type a fake CPF to see the blocker in action." },
+  "finishBtn": { "message": "Upgrade to Enterprise Security" }
+}

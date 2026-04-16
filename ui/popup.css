@@ -1,0 +1,156 @@
+body {
+  width: 280px;
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: sans-serif;
+  padding: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  font-size: 18px;
+  color: #10b981;
+  margin: 0;
+}
+.status-badge {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #10b981;
+}
+.stats {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+#blocked-count {
+  font-size: 28px;
+  font-weight: bold;
+  color: #10b981;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.primary-btn {
+  background: #10b981;
+  color: white;
+}
+.primary-btn:hover {
+  background: #059669;
+}
+#btn-clear {
+  background: none;
+  color: #64748b;
+  text-decoration: underline;
+  font-size: 10px;
+}
+.activity-log {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.activity-log h3 {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 4px;
+}
+
+#log-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+}
+
+#log-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #1e293b;
+  color: #cbd5e1;
+}
+
+#log-list li strong {
+  color: #10b981;
+}
+#log-list li em {
+  color: #64748b;
+  font-style: normal;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid #334155;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  border-color: #10b981;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.05);
+}
+
+.score-container {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.score-container p {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.score-circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 4px solid #10b981;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.05);
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+}
+
+.score-circle.warning {
+  border-color: #f59e0b;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.05);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.2);
+}
+
+.score-circle.danger {
+  border-color: #ef4444;
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+}

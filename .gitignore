@@ -1,0 +1,15 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Extension builds
+*.zip
+*.crx
+
+# IDE settings
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log
